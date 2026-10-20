@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: <your-dockerhub-username>/cloud-native-app:latest
+        image: parthivbghodadra/cloud-native-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
